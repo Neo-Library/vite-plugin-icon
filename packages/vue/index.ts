@@ -1,18 +1,13 @@
-import {
-    setupDevtoolsPlugin
-} from '@vue/devtools-api'
-export const icons = {
+import { setupDevtoolsPlugin } from "@vue/devtools-api";
+export const icons = {};
 
-}
-
-export const loadDevtools = (app: any) => {
-    setupDevtoolsPlugin({
-        id: 'neo.vuejs.icon',
-        app,
-        label: 'Icons'
-    }, api => {
-
-    })
-
-
-}
+export const loadDevtools = (app) => {
+  setupDevtoolsPlugin(
+    {
+      id: "neo.vuejs.icon",
+      app,
+      label: "Icons",
+    },
+    (api) => {}
+  );
+};

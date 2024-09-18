@@ -14,12 +14,12 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.6.2",
+    "@vue/devtools-api": "^7.4.5",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.45",
     "tailwindcss": "^3.4.10",
     "typescript": "^5.6.2",
     "vite": "^4.0.0",
-    "vue-tsc": "^2.1.6",
-    "@neo/vite-plugin-vue-icon":"*"
+    "vue-tsc": "^2.1.6"
   }
 }

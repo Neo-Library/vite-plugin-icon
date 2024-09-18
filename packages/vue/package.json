@@ -1,9 +1,13 @@
 {
   "name": "@neo/vite-plugin-vue-icon",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.js",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": "./dist/index.mjs"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
