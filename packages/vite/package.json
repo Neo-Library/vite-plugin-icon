@@ -4,9 +4,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"rollup -c ./rollup.config.mjs"
+    "build":"rollup -c ./rollup.config.mjs"
   },
-  "keywords": [],
+  "keywords": [
+    "vite",
+    "vite-icon",
+    "icon",
+    "vue",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/Neo-Library/vite-plugin-icon/issues"
+  },
   "author": "",
   "license": "ISC",
   "description": "",

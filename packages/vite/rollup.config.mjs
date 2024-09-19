@@ -1,11 +1,10 @@
-import IconPl from './plugin/index.mjs'
-
+import ts from 'rollup-plugin-typescript2'
 export default ({
     input: 'src/index.ts',
-    plugins: [IconPl()],
+    plugins: [ts()],
     output: [
         {
-            file: 'buxn.js',
+            file: 'index.js',
             format: 'es'
         }
     ]

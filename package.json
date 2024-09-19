@@ -1,17 +1,23 @@
 {
   "name": "vite-plugin-icon",
   "version": "1.0.0",
+  "author": "owocc",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/Neo-Library/vite-plugin-icon/issues"
+  },
+  "description": "this neo vite-plugin-icon workspaces",
   "scripts": {
+    "pg:v": "turbo run dev --filter=vanilla",
     "pg:vue": "turbo run dev --filter=playground-vue"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "rollup": "^4.21.3",
     "rollup-plugin-typescript2": "^0.36.0",
     "turbo": "^2.1.1",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.2",
+    "vite": "^5.4.6"
   },
   "workspaces": [
     "packages/**"
